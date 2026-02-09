@@ -1,0 +1,54 @@
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+
+body.not-authenticated .role-logged-in {
+    display: none;
+}
+
+body.authenticated .role-logged-out {
+    display: none;
+}
+
+
+.role-admin {
+    display: none;
+}
+
+body.is-admin .role-admin {
+    display: block;
+}
+
+
+.jumbotron {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    border-radius: 0.3rem;
+}
+
+.toast {
+    min-width: 300px;
+}
+
+.badge {
+    font-size: 0.9rem;
+}
+
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.is-valid {
+    border-color: #198754;
+}
